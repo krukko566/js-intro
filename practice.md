@@ -10,7 +10,7 @@ aside     { grid-area: sidebar; }
 footer    { grid-area: footer; }
 ```
 
-[javascript tutorial(https://www.w3schools.com/js/default.asp)
+[javascript tutorial](https://www.w3schools.com/js/default.asp)
 
 * **Javascript can calculate, manipulate and validate data.**
 * *Javascript can update and change both HTML and CSS.*
