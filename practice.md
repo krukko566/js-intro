@@ -1,14 +1,6 @@
 ## Koen Kruk
-
-
-
-
-
-
-
-
-
-
+### Northport Public School
+---
 
 ```css
 header    { grid-area: header; }
@@ -18,6 +10,7 @@ aside     { grid-area: sidebar; }
 footer    { grid-area: footer; }
 ```
 
-```html
-<p>Lorem ipsum.</p>
-```
+[javascript tutorial(https://www.w3schools.com/js/default.asp)
+
+* **Javascript can calculate, manipulate and validate data.**
+* *Javascript can update and change both HTML and CSS.*
