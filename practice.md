@@ -17,3 +17,7 @@ main      { grid-area: main; }
 aside     { grid-area: sidebar; }
 footer    { grid-area: footer; }
 ```
+
+```html
+<p>Lorem ipsum.</p>
+```
