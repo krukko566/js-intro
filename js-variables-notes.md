@@ -47,21 +47,27 @@ Before we touch the keyboard, I want to see your blueprint. Imagine you are buil
 
 1. Which piece of data about a player would stay the same forever (requiring a "safe"), and which might change as the player plays (requiring a "box")?
 
-### The "Safe" (Data that stays the same)
+**The "Safe" (Data that stays the same)**
 Think of a safe as a place where you lock something away, and it can never be altered. For a player, this would be permanent information, such as:
 * Their Player ID number: The unique number assigned to them when they first sign up.
 * Account creation date: The exact day and time they joined the game.
 * Their birthdate: Assuming they entered it when creating an account.
 
-### The "Box" (Data that changes)
+**The "Box" (Data that changes)**
 Think of a box as an open container. You can put something inside, take it out later, and swap it with something else entirely. For a player, this would be data that constantly updates as they play, such as:
-* Their current score: This goes up as they win points.
-* Their health or lives: This goes down when they take damage and up when they heal.
-* Their current level or location: This changes as they move through the game world.
+* **Their current score:** This goes up as they win points.
+* **Their health or lives:** This goes down when they take damage and up when they heal.
+* **Their current level or location:** This changes as they move through the game world.
 
 3. If you had to explain the `=` symbol to a non-coder using the analogy of a "bucket" and a "ball," how would you describe it?
 
-*Answer here...*
+**The Bucket, the Ball, and the `=` Symbol**
+In regular math, the `=` symbol means two things are exactly the same (like 2 + 2 = 4). But in JavaScript, the `=` symbol is an action. It is known as the assignment operator.
+* **The Bucket (The Variable):** This is the left side of the equation. It is an empty container with a label on it, waiting to hold something.
+* **The Ball (The Value):** This is the right side of the equation. It is your actual data, like a number or a word.
+* **The `=` Symbol (The Action):** This is the physical action of taking the ball and dropping it into the bucket.
+
+So, when a programmer writes a line of code like `bucket = ball`, they aren't saying the bucket is magically the same thing as the ball. They are giving the computer a specific instruction: **"Take the ball on the right side, and drop it into the bucket on the left side."**
 
 ---
 
