@@ -47,7 +47,17 @@ Before we touch the keyboard, I want to see your blueprint. Imagine you are buil
 
 1. Which piece of data about a player would stay the same forever (requiring a "safe"), and which might change as the player plays (requiring a "box")?
 
-*Answer here...*
+### The "Safe" (Data that stays the same)
+Think of a safe as a place where you lock something away, and it can never be altered. For a player, this would be permanent information, such as:
+* Their Player ID number: The unique number assigned to them when they first sign up.
+* Account creation date: The exact day and time they joined the game.
+* Their birthdate: Assuming they entered it when creating an account.
+
+### The "Box" (Data that changes)
+Think of a box as an open container. You can put something inside, take it out later, and swap it with something else entirely. For a player, this would be data that constantly updates as they play, such as:
+* Their current score: This goes up as they win points.
+* Their health or lives: This goes down when they take damage and up when they heal.
+* Their current level or location: This changes as they move through the game world.
 
 3. If you had to explain the `=` symbol to a non-coder using the analogy of a "bucket" and a "ball," how would you describe it?
 
